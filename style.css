@@ -17,6 +17,9 @@
 img {
     width: 65%;
 }
+span {
+    color: #8FBC8F;
+}
 .header_left {
    margin-top: 7%;
    margin-left: 10%;
@@ -68,7 +71,7 @@ img {
 }
 .missionbox {
     width: 28%;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     border-radius: 10px;
 }
 .missionbox img {
@@ -93,3 +96,98 @@ img {
     background: #eefaff;
 }
 /* End Mission Section */
+/* Start Develop Section */
+.develop {
+    display: flex;
+    margin-top: 25px;
+    background: url("./images/shapes/shape-7.png") no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin-bottom: 90px;
+    width: 95%;
+    margin: auto;
+}
+.deve_img {
+    width: 40%;
+}
+.develop_head {
+    width: 60%;
+    margin-top: 4%;
+}
+.deve_img img {
+    width: 70%;
+    margin-left: 20%;
+    overflow: hidden;
+}
+.develop_head h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+    margin: 20px 0; 
+}
+.develop_head p {
+    font-size: 19px;
+    color: #333333;
+    width: 90%;
+    margin-bottom: 25px;
+}
+/* End Develop Section */
+/* Start Global Section */
+.global {
+    display: flex;
+    padding-top: 25px;
+    background: url("./images/shapes/shape-1.png") no-repeat;
+    background-position: right;
+    background-size: 200px;
+    padding-bottom: 80px;
+    width: 95%;
+    margin: auto;
+}
+.global_head {
+    width: 60%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.global_head h1{
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+    margin: 20px 0; 
+}
+.global_head p {
+    font-size: 19px;
+    color: #333333;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.global_img {
+    width: 40%;
+}
+.global_img img {
+    width: 80%;
+    margin-right: 20%;
+    margin-top: 10%;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 100%;
+}
+/* End Global Section */
+/* Start Footer Section */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #0B0D17;
+    color: white;
+    margin-top: 65px;
+}
+footer h1 {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+footer p {
+    color: #c3dee9;
+    font-size: 12px;
+    margin-top: 10px;
+}
+/* End Footer Section */
